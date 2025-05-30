@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+    color: #333;
+    padding: 2rem;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .outer-nav{
+    display: inline-flex;
+    padding-bottom: 30px;
+  }
+  nav{
+    border: 1px solid white;
+    background: #EEF1F6;
+    height: 40px;
+    padding-top: 10px;
+    width: 100%;
+    border-radius: 25px;
+  }
+  .settings{
+    border: 1px solid white;
+    background: #EEF1F6;
+    height: 40px;
+    padding-top: 10px;
+    width: 115px;
+    border-radius: 25px;
+    padding-left: 13px;
+    cursor: pointer;
+  }
+  .notification{
+    border: 1px solid white;
+    background: #EEF1F6;
+    height: 40px;
+    padding-top: 10px;
+    width: 48px;
+    border-radius: 25px;
+    padding-left: 13px;
+    cursor: pointer;
+  }
+  .user{
+    border: 1px solid white;
+    background: #EEF1F6;
+    height: 40px;
+    padding-top: 10px;
+    width: 48px;
+    border-radius: 25px;
+    padding-left: 13px;
+    cursor: pointer;
+  }
+
+  nav a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555;
+    display: inline-block;
+  }
+
+  .logo{
+    padding: 10px 30px 40px;
+    display: inline-flex;
+    
+  }
+
+  strong{
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+
+  .logo div{
+    text-align: center;
+    line-height: 40px;
+  }
+
+  .logo img {
+    height: 2.2rem;
+    width: 2.2rem;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 2rem;
+    display: inline-flex;
+  }
+  header h1{
+    font-size: 2.2rem;
+  }
+  
+  .billing-toggle {
+    /* margin-top: 1rem; */
+    margin-left: 25rem;
+  }
+  
+  .billing-toggle button {
+    padding: 0.5rem 1rem;
+    border: none;
+    margin: 0 0.2rem;
+    cursor: pointer;
+    border-radius: 20px;
+    background: #eee;
+  }
+  
+  .billing-toggle .active {
+    background: #000;
+    color: white;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex: 1;
+    background: #EEF1F6;
+    border-radius: 20px;
+    padding: 1.5rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    position: relative;
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+
+  .dot{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .price {
+    display: flex;
+    justify-content: center;
+  }
+  .price div{
+    font-size: 2.2rem;
+  }
+  
+  .card .price span {
+    font-size: 0.9rem;
+    color: #777;
+    align-self: center;
+  }
+  
+  .card .desc {
+    font-size: 0.9rem;
+    margin: 1rem 0;
+    color: #555;
+  }
+  
+  .card ul {
+    list-style: none;
+    margin-bottom: 1.5rem;
+    text-align: start;
+    padding-left: 10px;
+  }
+  
+  .card ul li {
+    padding: 0.3rem 0;
+  }
+  
+  .btn {
+    padding: 0.7rem 1.2rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .cancel {
+    background: #fff;
+    color: #555;
+  }
+  
+  .trial {
+    background: #f0f0f0;
+    color: #555;
+  }
+  
+  .pro {
+    background: #1a1a1a;
+    color: white;
+  }
+  
+  .pro .price span {
+    color: #ccc;
+  }
+  
+  .master {
+    background: #fffbe6;
+  }
+  
+  .badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: gold;
+    color: #000;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0.3rem 0.7rem;
+    border-radius: 12px;
+  }  
